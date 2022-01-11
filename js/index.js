@@ -12,7 +12,7 @@ function elementCreator(tagName) {
   return document.createElement(tagName);
 }
 
-function filmCreator(pokemon) {
+function cartoonCreator(pokemon) {
   var item = elementCreator("li");
   var img = elementCreator("img");
   var title = elementCreator("h3");
@@ -38,7 +38,7 @@ function filmCreator(pokemon) {
 var genres = [];
 
 for (var i = 0; i < pokemons.length; i++) {
-  filmCreator(pokemons[i]);
+  cartoonCreator(pokemons[i]);
 }
 
 //pokemon type dropdown
