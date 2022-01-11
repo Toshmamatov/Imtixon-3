@@ -19,6 +19,7 @@ function cartoonCreator(pokemon) {
   var type = elementCreator("h4");
   var weight = elementCreator("span");
   var height = elementCreator("span");
+  img.add("salom");
 
   img.src = pokemon.img;
   title.textContent = pokemon.name;
