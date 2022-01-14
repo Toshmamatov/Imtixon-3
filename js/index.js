@@ -35,13 +35,13 @@ function cartoonCreator(pokemon) {
   elList.appendChild(item);
 }
 
-var genres = [];
-
 for (var i = 0; i < pokemons.length; i++) {
   cartoonCreator(pokemons[i]);
 }
 
 //pokemon type dropdown
+
+var genres = [];
 
 for (var i = 0; i < pokemons.length; i++) {
   pokemons[i].type.forEach(function (item) {
